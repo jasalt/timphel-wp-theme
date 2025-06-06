@@ -1,16 +1,10 @@
-Experimental WordPress starter theme (or theme framework) using [Phel](https://phel-lang.org/) (Lisp) and [Timber](https://github.com/timber). Currently only front-page and single article templates with basic layout are implemented.
+Experimental work-in-progress WordPress theme using [Phel](https://phel-lang.org/) (Lisp) and [Timber](https://github.com/timber). Currently only front-page and single article templates with basic layout are implemented.
 
 ![Screenshot_20241201_200200](https://github.com/user-attachments/assets/61832632-ef87-4f6a-b8e6-5e44618fc80a)
 
-Deviates somewhat from following [vanilla WordPress PHP templating facilities](https://developer.wordpress.org/themes/basics/) by using Phel's [Clojure Hiccup](https://github.com/weavejester/hiccup/) style HTML templating and [Timber](https://github.com/timber/timber/) as a "WordPress OOP framework" without utilizing it's Twig templating.
-
-Also taking inspiration from some Clojure web libraries and popular backend web frameworks such as [Python Flask](https://flask.palletsprojects.com/en/stable/quickstart/), hopefully sharing some familiar web development patterns where possible.
+Uses Phel's [Clojure Hiccup](https://github.com/weavejester/hiccup/) style HTML templating and attempts to use [Timber](https://github.com/timber/timber/) providing some convenience wrapping around WP API's (without utilizing it's Twig templating). Timber should probably be removed however as it probably ends up adding more complexity. 
 
 Project forked from [Phel WP plugin](https://github.com/jasalt/phel-wp-plugin) which includes more in depth documentation on using Phel in conjunction with WordPress. 
-
-This project is more of a hobby experiment but maybe used for a cool demo site or two sometime. I intend to keep this opinionated with tools I use for work also (building web stores at [netura.fi](https://netura.fi)).
-
--- Jarkko Saltiola
 
 ## Development container
 
